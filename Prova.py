@@ -11,3 +11,7 @@ def create_docx():
 
     # Save the document
     doc.save('output.docx')
+    
+if st.button('Create DOCX'):
+    create_docx()
+    st.success('DOCX file created successfully.')
